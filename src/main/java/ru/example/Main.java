@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static boolean isCharA(char ch){
-        return (ch == 'A')? true: false;
+        return ch == 'A';
     }
 
     public static boolean isCharNumber(char ch){
