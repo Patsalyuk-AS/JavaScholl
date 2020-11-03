@@ -1,2 +1,2 @@
 # JavaScholl
-A project for SJS
+A project for Sberbank Java School
