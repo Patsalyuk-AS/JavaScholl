@@ -27,7 +27,7 @@ public class Main {
 
     public static int getMaxNumber(int a, int b){
 
-        return (a > b) ? a : b;
+        return Math.max(a, b);
     }
 
     public static boolean isCharA(char ch){
