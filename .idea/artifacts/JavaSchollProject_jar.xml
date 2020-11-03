@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="JavaSchollProject:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JavaSchollProject_jar</output-path>
-    <root id="archive" name="JavaSchollProject.jar">
-      <element id="module-output" name="JavaSchollProject" />
-    </root>
-  </artifact>
-</component>
