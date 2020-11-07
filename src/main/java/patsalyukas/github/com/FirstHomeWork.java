@@ -1,6 +1,6 @@
 package patsalyukas.github.com;
 
-public class FirstHomeWord {
+public class FirstHomeWork {
 
     public static byte sumTwoNumbers(byte a, short b) {
 
