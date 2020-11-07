@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: ru.example.Main
+Main-Class: patsalyukas.github.com.Main
 
