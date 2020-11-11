@@ -1,4 +1,4 @@
-package patsalyukas.github.com;
+package com.github.patsalyukas;
 
 import java.awt.*;
 

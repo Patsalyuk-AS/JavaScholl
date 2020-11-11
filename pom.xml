@@ -7,22 +7,22 @@
     <groupId>ru.example</groupId>
     <artifactId>JavaSchollProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.7.0</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>patsalyukas.github.com.Main</mainClass>
+        <mainClass>com.github.patsalyukas.Main</mainClass>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -40,7 +40,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>patsalyukas.github.com.Main</mainClass>
+                            <mainClass>com.github.patsalyukas.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
